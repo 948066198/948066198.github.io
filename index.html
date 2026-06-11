@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="申攀攀的个人网站：作品、经历、想法与联系方式。"
+    />
+    <title>申攀攀 | 个人网站</title>
+    <link rel="preload" as="image" href="assets/hero-workspace.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">S</span>
+        <span>shenpp.top</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#timeline">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-workspace.svg"
+          alt="带有笔记本电脑、笔记本和自然光影的创意工作桌面"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio / Notes / Projects</p>
+          <h1 id="hero-title">你好，我是申攀攀。</h1>
+          <p class="hero-copy">
+            我把技术、产品和表达放在同一张桌子上，做清楚、可靠、能被真实使用的东西。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div class="section-label">About</div>
+        <div class="intro-grid">
+          <h2>关注长期价值，也喜欢把复杂问题整理到足够简单。</h2>
+          <div class="intro-copy">
+            <p>
+              这里可以放你的真实介绍：职业方向、正在研究的主题、擅长的技能，以及你希望别人通过这个网站理解你的方式。
+            </p>
+            <p>
+              当前版本先做成一个可上线的个人主页骨架，适合部署到 GitHub Pages 并绑定 shenpp.top。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" aria-labelledby="skills-title">
+        <div class="section-label">Focus</div>
+        <h2 id="skills-title">我常做的事</h2>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <span class="icon icon-arrow" aria-hidden="true"></span>
+            <h3>产品与工程</h3>
+            <p>把需求拆成能落地的路径，兼顾体验、稳定性和后续维护成本。</p>
+          </article>
+          <article class="skill-card">
+            <span class="icon icon-wave" aria-hidden="true"></span>
+            <h3>自动化与工具</h3>
+            <p>为重复流程写脚本、搭平台，让时间花在判断和创造上。</p>
+          </article>
+          <article class="skill-card">
+            <span class="icon icon-star" aria-hidden="true"></span>
+            <h3>内容与表达</h3>
+            <p>把想法整理成文章、文档和演示，让别人更快理解重点。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section-label">Selected Work</div>
+        <div class="section-heading">
+          <h2 id="work-title">精选项目</h2>
+          <a href="#contact">合作咨询</a>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div>
+              <p class="project-meta">Web / 个人品牌</p>
+              <h3>shenpp.top</h3>
+            </div>
+            <p>一个简洁、可维护的个人主页，用来展示项目、经历和联系方式。</p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-meta">Automation / Workflow</p>
+              <h3>效率工具集</h3>
+            </div>
+            <p>把日常资料整理、发布、归档流程自动化，减少机械操作。</p>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-meta">Writing / Knowledge</p>
+              <h3>长期笔记</h3>
+            </div>
+            <p>记录技术实践、产品观察和个人复盘，持续沉淀可复用的判断。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-label">Timeline</div>
+        <h2 id="timeline-title">最近动态</h2>
+        <ol class="timeline-list">
+          <li>
+            <time datetime="2026">2026</time>
+            <span>上线个人网站，集中展示作品和公开联系方式。</span>
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            <span>继续打磨工程、自动化、内容表达相关项目。</span>
+          </li>
+          <li>
+            <time datetime="2024">2024</time>
+            <span>整理个人知识库，将碎片经验转化为长期资产。</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">想聊项目、合作或一个还没完全成形的想法？</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:948066198@qq.com">948066198@qq.com</a>
+          <a href="https://github.com/" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span data-year></span> 申攀攀</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
